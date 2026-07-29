@@ -1,0 +1,32 @@
+.theme-template {
+  --board-bg: #d9b06f;
+  --board-border: #5a3d1a;
+  --grid-line: #a87f43;
+}
+
+/** Board colours */
+.theme-template .board {
+  background: var(--board-bg);
+  border: 2px solid var(--board-border);
+}
+
+/** Grid line colours */
+.theme-template .tile {
+  border-color: var(--grid-line);
+}
+
+/** Black stone colours */
+.theme-template .stone.black {
+  background: radial-gradient(circle at 30% 30%, #555, #000);
+}
+
+/** White stone colours */
+.theme-template .stone.white {
+  background: radial-gradient(circle at 30% 30%, #fff, #ccc);
+  border: 1px solid #999;
+}
+
+/** Ghost stone colours */
+.theme-template .cell.preview:hover .stone.ghost {
+  opacity: 0.4;
+}

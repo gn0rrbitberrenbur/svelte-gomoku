@@ -1,0 +1,27 @@
+.theme-green {
+  --board-bg: #a3f1b0;
+  --board-border: #1a5a2a;
+  --grid-line: #4ab55f;
+}
+
+.theme-green .board {
+  background: var(--board-bg);
+  border: 2px solid var(--board-border);
+}
+
+.theme-green .tile {
+  border-color: var(--grid-line);
+}
+
+.theme-green .stone.black {
+  background: radial-gradient(circle at 30% 30%, #6fdd85, #2fa347);
+}
+
+.theme-green .stone.white {
+  background: radial-gradient(circle at 30% 30%, #fff, #d9f5e0);
+  border: 1px solid #4ab55f;
+}
+
+.theme-green .cell.preview:hover .stone.ghost {
+  opacity: 0.4;
+}

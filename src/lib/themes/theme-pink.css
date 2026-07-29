@@ -1,0 +1,27 @@
+.theme-pink {
+  --board-bg: #f1a3c9;
+  --board-border: #5a1a3a;
+  --grid-line: #b54a7f;
+}
+
+.theme-pink .board {
+  background: var(--board-bg);
+  border: 2px solid var(--board-border);
+}
+
+.theme-pink .tile {
+  border-color: var(--grid-line);
+}
+
+.theme-pink .stone.black {
+  background: radial-gradient(circle at 30% 30%, #dd6fa8, #a32f6b);
+}
+
+.theme-pink .stone.white {
+  background: radial-gradient(circle at 30% 30%, #fff, #f5d9e6);
+  border: 1px solid #b54a7f;
+}
+
+.theme-pink .cell.preview:hover .stone.ghost {
+  opacity: 0.4;
+}

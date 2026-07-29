@@ -1,0 +1,27 @@
+.theme-blue {
+  --board-bg: #a3c9f1;
+  --board-border: #1a3a5a;
+  --grid-line: #4a7fb5;
+}
+
+.theme-blue .board {
+  background: var(--board-bg);
+  border: 2px solid var(--board-border);
+}
+
+.theme-blue .tile {
+  border-color: var(--grid-line);
+}
+
+.theme-blue .stone.black {
+  background: radial-gradient(circle at 30% 30%, #6fa8dd, #2f6ba3);
+}
+
+.theme-blue .stone.white {
+  background: radial-gradient(circle at 30% 30%, #fff, #d9e6f5);
+  border: 1px solid #4a7fb5;
+}
+
+.theme-blue .cell.preview:hover .stone.ghost {
+  opacity: 0.4;
+}
