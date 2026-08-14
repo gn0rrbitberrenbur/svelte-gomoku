@@ -2,17 +2,18 @@
 	"name": "svelte-gomoku",
 	"version": "0.0.1",
 	"description": "A playable Gomoku board component for Svelte 5",
-  	"license": "MIT",
+	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
 		"dev:engine": "vite --open /engine",
-    	"dev:customization": "vite --open /customization",
+		"dev:customization": "vite --open /customization",
 		"build": "vite build && npm run prepack",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"prepack": "svelte-kit sync && svelte-package && publint",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"package": "svelte-package"
 	},
 	"files": [
 		"dist",
@@ -50,9 +51,9 @@
 		"vitest": "^4.1.10"
 	},
 	"repository": {
-    "type": "git",
-    "url": "https://github.com/gn0rrbitberrenbur/svelte-gomoku.git"
-  },
+		"type": "git",
+		"url": "https://github.com/gn0rrbitberrenbur/svelte-gomoku.git"
+	},
 	"keywords": [
 		"svelte",
 		"gomoku",
