@@ -10,7 +10,7 @@ Playable gomoku component for Svelte.
 ## Usage
 ### Installation
 ```
-npm install https://github.com/gn0rrbitberrenbur/svelte-gomoku#main
+npm install https://github.com/gn0rrbitberrenbur/svelte-gomoku/releases/download/v0.0.1/svelte-gomoku-0.0.1.tgz
 ```
 
 ### Basic usage
