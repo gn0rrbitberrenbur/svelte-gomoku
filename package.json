@@ -1,6 +1,8 @@
 {
 	"name": "svelte-gomoku",
 	"version": "0.0.1",
+	"description": "A playable Gomoku board component for Svelte 5",
+  	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
 		"dev:engine": "vite --open /engine",
@@ -47,7 +49,15 @@
 		"vite": "^8.0.16",
 		"vitest": "^4.1.10"
 	},
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/gn0rrbitberrenbur/svelte-gomoku.git"
+  },
 	"keywords": [
-		"svelte"
+		"svelte",
+		"gomoku",
+		"game",
+		"board",
+		"component"
 	]
 }
